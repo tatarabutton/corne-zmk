@@ -9,9 +9,7 @@
 
 1. [このリポジトリをフォークします](https://docs.github.com/en/get-started/quickstart/fork-a-repo#forking-a-repository)。
 2. [**Actions** タブをクリックし、ワークフローが有効になっていることを確認します](https://docs.github.com/en/actions/managing-workflow-runs-and-deployments/managing-workflow-runs/disabling-and-enabling-a-workflow#enabling-a-workflow)。
-3. [`config/west.yml`](config/west.yml) 内の `eyelash_corne` プロジェクトが正常に動作することを確認してください。`boards/arm/eyelash_corne` フォルダはこの URL からダウンロードされます。
-4. フォークしたリポジトリに `boards/arm/eyelash_corne` フォルダが残っている場合は、削除してください。
-5. [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) を使用すると、より簡単にキーマップを再設定できます。
+3. [Keymap Editor](https://nickcoutsos.github.io/keymap-editor/) を使用すると、より簡単にキーマップを再設定できます。
 
 **既に ZMK 設定用のリポジトリを持っている場合は、[フォークする代わりにモジュールとして追加することができます](https://zmk.dev/docs/features/modules#building-with-modules)。**
 
