@@ -25,7 +25,7 @@
 
 2. **左キーボード** を接続し、**リセットボタンを2回** 押します。これで、キーボードがマスストレージデバイスとして表示されます。
 
-3. `eyelash_corne_studio_left.uf2`、`nice_view-eyelash_corne_left-zmk.uf2`、`settings_reset-eyelash_corne_left-zmk.uf2` をストレージに移動します。転送が完了すると、ストレージは自動的に取り出されます。
+3. `eyelash_corne_studio_left.uf2`、`nice_view-eyelash_corne_left-zmk.uf2`、`settings_reset-eyelash_corne_left-zmk.uf2` をまとめてストレージに移動します。転送が完了すると、ストレージは自動的に取り出されます。
 
 4. **右キーボード** を接続し、**リセットボタンを2回** 押します。これで、キーボードがマスストレージデバイスとして表示されます。
 
