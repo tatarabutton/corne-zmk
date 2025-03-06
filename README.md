@@ -23,11 +23,19 @@
 
 2. **Connect the left keyboard** and **press the reset button twice**. The keyboard should now appear as a mass storage device.
 
-3. Move `eyelash_corne_studio_left.uf2`, `nice_view-eyelash_corne_left-zmk.uf2`, and `settings_reset-eyelash_corne_left-zmk.uf2` to the storage at the same time. Once the transfer is complete, the storage will **automatically eject**.
+3. Move `eyelash_corne_studio_left.uf2`, `nice_view-eyelash_corne_left-zmk.uf2` to the storage at the same time. Once the transfer is complete, the storage will **automatically eject**.
 
 4. **Connect the right keyboard** and **press the reset button twice**. The keyboard should now appear as a mass storage device.
 
 5. Move `nice_view-eyelash_corne_right-zmk.uf2` to the storage. Once the transfer is complete, the storage will **automatically eject**.
 
 
+## How to reset the keyboard
 
+1. **Connect the left keyboard** and **press the reset button twice**. The keyboard should now appear as a mass storage device.
+
+2. Move `settings_reset-eyelash_corne_left-zmk.uf2` to the storage at the same time. Once the transfer is complete, the storage will **automatically eject**.
+
+3. **Connect the right keyboard** and **press the reset button twice**. The keyboard should now appear as a mass storage device.
+
+4. Move `settings_reset-eyelash_corne_left-zmk.uf2` to the storage. Once the transfer is complete, the storage will **automatically eject**.
