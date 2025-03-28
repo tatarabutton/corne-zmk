@@ -1,35 +1,35 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   QWERTY:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - Q
   - W
-  - E
   - R
-  - T
-  - $$mdi:arrow-up-bold$$
-  - Y
-  - U
-  - I
-  - O
-  - P
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td0'
-  - A
-  - S
-  - D
+  - N
   - F
-  - G
+  - $$mdi:arrow-up-bold$$
+  - J
+  - U
+  - O
+  - L
+  - P
+  - {t: '[', s: '{'}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-control$$'}
+  - K
+  - S
+  - T
+  - H
+  - M
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
-  - {t: '''', s: '"'}
-  - $$mdi:apple-keyboard-control$$
+  - G
+  - I
+  - E
+  - A
+  - Y
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
@@ -37,18 +37,18 @@ layers:
   - B
   - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
-  - N
-  - M
+  - {t: '-', s: _}
+  - D
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
-  - NUMBER
-  - {t: '$$mdi:keyboard-space$$', h: Fn}
+  - {t: INT MUHENKAN, h: NUMBER}
+  - {t: INT HENKAN, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - KP ENTER
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
@@ -73,9 +73,9 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '&mkp MB1'
+  - '&mkp MB3'
+  - '&mkp MB2'
   - HOME
   - PG UP
   - {t: '$$mdi:transfer$$', type: trans}
@@ -192,7 +192,7 @@ layers:
   - PAUSE BREAK
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
