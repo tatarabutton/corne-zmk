@@ -35,7 +35,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:keyboard-space$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - $$mdi:arrow-down-bold$$
   - {t: '-', s: _}
   - D
@@ -45,7 +45,7 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - {t: INT MUHENKAN, h: NUMBER}
-  - {t: INT HENKAN, h: toggle}
+  - {t: INT MUHENKAN, h: toggle}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - KP ENTER
@@ -73,7 +73,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
-  - '&mkp MB1'
+  - $$mdi:mouse-left-click-outline$$
   - '&mkp MB3'
   - '&mkp MB2'
   - HOME
