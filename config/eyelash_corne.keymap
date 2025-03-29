@@ -50,9 +50,18 @@
         compatible = "zmk,combos";
 
         g {
-            bindings = <&none>;
+            bindings = <&kp G>;
             key-positions = <42 14>;
             layers = <0>;
+        };
+    };
+
+    macros {
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "NEW_MACRO";
         };
     };
 
