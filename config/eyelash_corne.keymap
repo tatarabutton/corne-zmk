@@ -52,22 +52,22 @@
         default_layer {
             display-name = "QWERTY";
             bindings = <
-&kp ESC         &kp Q  &kp W  &kp R      &kp N               &kp F                                     &kp UP                &kp J        &kp U            &kp O         &kp L    &kp P     &kp LEFT_BRACKET
-&mt LCTRL TAB   &kp K  &kp S  &kp T      &kp H               &kp M                           &kp LEFT  &kp ENTER  &kp RIGHT  &kp G        &kp I            &kp E         &kp A    &kp Y     &kp RIGHT_BRACKET
-&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B             &bt BT_NXT              &kp DOWN              &kp MINUS    &kp D            &kp COMMA     &kp DOT  &kp FSLH  &kp ESC
-                              &kp SPACE  &lt 1 INT_MUHENKAN  &kt INT_MUHENKAN                                                &lt 3 ENTER  &lt 2 BACKSPACE  &kp KP_ENTER
+&kp ESC         &kp Q  &kp W  &kp R      &kp N               &kp F                                   &kp UP                &kp J            &kp U            &kp O         &kp L    &kp P     &kp LEFT_BRACKET
+&mt LCTRL TAB   &kp K  &kp S  &kp T      &kp H               &kp M                         &kp LEFT  &kp ENTER  &kp RIGHT  &kp G            &kp I            &kp E         &kp A    &kp Y     &kp RIGHT_BRACKET
+&kp LEFT_SHIFT  &kp Z  &kp X  &kp C      &kp V               &kp B           &bt BT_NXT              &kp DOWN              &kp MINUS        &kp D            &kp COMMA     &kp DOT  &kp FSLH  &kp ESC
+                              &kp SPACE  &lt 1 INT_MUHENKAN  &kp INT_HENKAN                                                &lt 3 LA(SPACE)  &lt 2 BACKSPACE  &kp KP_ENTER
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         lower_layer {
             display-name = "NUMBER";
             bindings = <
-&trans  &kp N1     &kp N2     &kp N3     &kp N4        &kp N5                                      &mmv MOVE_UP                     &kp N6           &kp N7       &kp N8         &kp N9           &kp N0    &kp BSPC
-&trans  &kp LC(K)  &kp LC(S)  &kp LC(D)  &bt BT_SEL 2  &bt BT_SEL 3                &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT  &kp LEFT         &mkp LCLK    &mkp MB3       &mkp MB2         &kp HOME  &kp PG_UP
-&trans  &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)     &kp LC(B)     &kp C_MUTE                    &mmv MOVE_DOWN                   &rgb_ug RGB_EFR  &kp PAGE_UP  &kp PAGE_DOWN  &rgb_ug RGB_BRD  &kp END   &kp PG_DN
-                              &trans     &trans        &trans                                                                       &kp INS          &kp DEL      &trans
+&trans         &kp N1     &kp N2     &kp N3     &kp N4     &kp N5                                   &mmv MOVE_UP                     &kp N6     &kp N7       &kp N8         &kp N9    &kp N0         &kp AT_SIGN
+&kp LS(LG(S))  &kp LC(K)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)                &mmv MOVE_LEFT  &none           &mmv MOVE_RIGHT  &kp LEFT   &mkp LCLK    &mkp MB3       &mkp MB2  &kp SEMICOLON  &kp COLON
+&kp LG(TAB)    &kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &kp C_MUTE                    &mmv MOVE_DOWN                   &kp LC(K)  &kp PAGE_UP  &kp PAGE_DOWN  &td0      &kp SLASH      &kp NON_US_BACKSLASH
+                                     &trans     &trans     &trans                                                                    &kp INS    &kp DEL      &trans
             >;
 
             sensor-bindings = <&scroll_encoder>;
