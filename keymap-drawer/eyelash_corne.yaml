@@ -198,5 +198,5 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [42, 14]
-  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  k: G
   l: [QWERTY]
