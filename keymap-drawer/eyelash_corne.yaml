@@ -46,7 +46,7 @@ layers:
   - $$mdi:keyboard-space$$
   - {t: INT MUHENKAN, h: NUMBER}
   - INT HENKAN
-  - {t: 'Alt+$$mdi:keyboard-space$$', h: Fn}
+  - {t: Alt+UNDO, h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - KP ENTER
   NUMBER:
@@ -92,12 +92,12 @@ layers:
   - '&td0'
   - {t: /, s: '?'}
   - \
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - Alt+$$mdi:arrow-left-bold$$
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - Alt+$$mdi:keyboard-space$$
   SYMBOL:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
@@ -196,3 +196,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [42, 14]
+  k: {t: '$$mdi:minus-circle-outline$$', type: none}
+  l: [QWERTY]
