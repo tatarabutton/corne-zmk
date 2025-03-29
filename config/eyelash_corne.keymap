@@ -54,6 +54,30 @@
             key-positions = <42 14>;
             layers = <0>;
         };
+
+        z {
+            bindings = <&kp Z>;
+            key-positions = <42 15>;
+            layers = <0>;
+        };
+
+        n {
+            bindings = <&kp D>;
+            key-positions = <42 16>;
+            layers = <0>;
+        };
+
+        b {
+            bindings = <&kp B>;
+            key-positions = <42 17>;
+            layers = <0>;
+        };
+
+        p {
+            bindings = <&kp P>;
+            key-positions = <42 5>;
+            layers = <0>;
+        };
     };
 
     macros {
@@ -77,7 +101,7 @@
                               &kp SPACE  &lt 1 INT_MUHENKAN  &kp INT_HENKAN                                                &lt 3 LA(K_UNDO)  &lt 2 BACKSPACE  &kp KP_ENTER
             >;
 
-            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
+            sensor-bindings = <&scroll_encoder>;
         };
 
         lower_layer {
