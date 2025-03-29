@@ -78,13 +78,18 @@
             key-positions = <42 5>;
             layers = <0>;
         };
+
+        ann {
+            bindings = <&ann>;
+            key-positions = <47 25>;
+        };
     };
 
     macros {
-        new_macro: new_macro {
+        ann: new_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp A &kp KP_ENTER>;
+            bindings = <&kp A &kp N &kp N>;
             label = "NEW_MACRO";
         };
     };
