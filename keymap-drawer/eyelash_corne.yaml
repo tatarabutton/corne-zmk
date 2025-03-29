@@ -200,3 +200,15 @@ combos:
 - p: [42, 14]
   k: G
   l: [QWERTY]
+- p: [42, 15]
+  k: Z
+  l: [QWERTY]
+- p: [42, 16]
+  k: D
+  l: [QWERTY]
+- p: [42, 17]
+  k: B
+  l: [QWERTY]
+- p: [42, 5]
+  k: P
+  l: [QWERTY]
