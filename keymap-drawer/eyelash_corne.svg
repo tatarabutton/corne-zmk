@@ -590,6 +590,65 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
 <text x="798" y="147" class="combo tap">&amp;ann</text>
 </g>
+<g class="combo combopos-6">
+<path d="M742,147 l9,38" class="combo"/>
+<path d="M742,147 l-9,-38" class="combo"/>
+<rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
+<text x="742" y="147" class="combo tap">&amp;inn</text>
+</g>
+<g class="combo combopos-7">
+<path d="M742,119 l11,66" class="combo"/>
+<path d="M742,119 l-11,-66" class="combo"/>
+<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
+<text x="742" y="119" class="combo tap">&amp;unn</text>
+</g>
+<g class="combo combopos-8">
+<path d="M770,143 l-10,41" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
+<text x="770" y="143" class="combo tap">&amp;enn</text>
+</g>
+<g class="combo combopos-9">
+<path d="M770,115 l-11,69" class="combo"/>
+<path d="M770,115 l11,-69" class="combo"/>
+<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
+<text x="770" y="115" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-10">
+<path d="M541,133 l197,64" class="combo"/>
+<path d="M541,133 l-495,-27" class="combo"/>
+<path d="M541,133 l280,-39" class="combo"/>
+<rect rx="6" ry="6" x="527" y="120" width="28" height="26" class="combo"/>
+<text x="541" y="133" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-11">
+<path d="M504,133 l234,65" class="combo"/>
+<path d="M504,133 l-457,-27" class="combo"/>
+<path d="M504,133 l206,-39" class="combo"/>
+<rect rx="6" ry="6" x="490" y="120" width="28" height="26" class="combo"/>
+<text x="504" y="133" class="combo tap">&amp;kinn</text>
+</g>
+<g class="combo combopos-12">
+<path d="M504,114 l234,82" class="combo"/>
+<path d="M504,114 l-457,-9" class="combo"/>
+<path d="M504,114 l206,-73" class="combo"/>
+<rect rx="6" ry="6" x="490" y="101" width="28" height="26" class="combo"/>
+<text x="504" y="114" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-13">
+<path d="M523,130 l216,67" class="combo"/>
+<path d="M523,130 l-476,-25" class="combo"/>
+<path d="M523,130 l243,-43" class="combo"/>
+<rect rx="6" ry="6" x="509" y="117" width="28" height="26" class="combo"/>
+<text x="523" y="130" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-14">
+<path d="M523,112 l216,84" class="combo"/>
+<path d="M523,112 l-476,-7" class="combo"/>
+<path d="M523,112 l244,-78" class="combo"/>
+<rect rx="6" ry="6" x="509" y="99" width="28" height="26" class="combo"/>
+<text x="523" y="112" class="combo tap">&amp;konn</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 318)" class="layer-NUMBER">
@@ -862,6 +921,65 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
 <text x="798" y="147" class="combo tap">&amp;ann</text>
 </g>
+<g class="combo combopos-1">
+<path d="M742,147 l9,38" class="combo"/>
+<path d="M742,147 l-9,-38" class="combo"/>
+<rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
+<text x="742" y="147" class="combo tap">&amp;inn</text>
+</g>
+<g class="combo combopos-2">
+<path d="M742,119 l11,66" class="combo"/>
+<path d="M742,119 l-11,-66" class="combo"/>
+<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
+<text x="742" y="119" class="combo tap">&amp;unn</text>
+</g>
+<g class="combo combopos-3">
+<path d="M770,143 l-10,41" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
+<text x="770" y="143" class="combo tap">&amp;enn</text>
+</g>
+<g class="combo combopos-4">
+<path d="M770,115 l-11,69" class="combo"/>
+<path d="M770,115 l11,-69" class="combo"/>
+<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
+<text x="770" y="115" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-5">
+<path d="M541,133 l197,64" class="combo"/>
+<path d="M541,133 l-495,-27" class="combo"/>
+<path d="M541,133 l280,-39" class="combo"/>
+<rect rx="6" ry="6" x="527" y="120" width="28" height="26" class="combo"/>
+<text x="541" y="133" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-6">
+<path d="M504,133 l234,65" class="combo"/>
+<path d="M504,133 l-457,-27" class="combo"/>
+<path d="M504,133 l206,-39" class="combo"/>
+<rect rx="6" ry="6" x="490" y="120" width="28" height="26" class="combo"/>
+<text x="504" y="133" class="combo tap">&amp;kinn</text>
+</g>
+<g class="combo combopos-7">
+<path d="M504,114 l234,82" class="combo"/>
+<path d="M504,114 l-457,-9" class="combo"/>
+<path d="M504,114 l206,-73" class="combo"/>
+<rect rx="6" ry="6" x="490" y="101" width="28" height="26" class="combo"/>
+<text x="504" y="114" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-8">
+<path d="M523,130 l216,67" class="combo"/>
+<path d="M523,130 l-476,-25" class="combo"/>
+<path d="M523,130 l243,-43" class="combo"/>
+<rect rx="6" ry="6" x="509" y="117" width="28" height="26" class="combo"/>
+<text x="523" y="130" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-9">
+<path d="M523,112 l216,84" class="combo"/>
+<path d="M523,112 l-476,-7" class="combo"/>
+<path d="M523,112 l244,-78" class="combo"/>
+<rect rx="6" ry="6" x="509" y="99" width="28" height="26" class="combo"/>
+<text x="523" y="112" class="combo tap">&amp;konn</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 637)" class="layer-SYMBOL">
@@ -1130,6 +1248,65 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
 <text x="798" y="147" class="combo tap">&amp;ann</text>
 </g>
+<g class="combo combopos-1">
+<path d="M742,147 l9,38" class="combo"/>
+<path d="M742,147 l-9,-38" class="combo"/>
+<rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
+<text x="742" y="147" class="combo tap">&amp;inn</text>
+</g>
+<g class="combo combopos-2">
+<path d="M742,119 l11,66" class="combo"/>
+<path d="M742,119 l-11,-66" class="combo"/>
+<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
+<text x="742" y="119" class="combo tap">&amp;unn</text>
+</g>
+<g class="combo combopos-3">
+<path d="M770,143 l-10,41" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
+<text x="770" y="143" class="combo tap">&amp;enn</text>
+</g>
+<g class="combo combopos-4">
+<path d="M770,115 l-11,69" class="combo"/>
+<path d="M770,115 l11,-69" class="combo"/>
+<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
+<text x="770" y="115" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-5">
+<path d="M541,133 l197,64" class="combo"/>
+<path d="M541,133 l-495,-27" class="combo"/>
+<path d="M541,133 l280,-39" class="combo"/>
+<rect rx="6" ry="6" x="527" y="120" width="28" height="26" class="combo"/>
+<text x="541" y="133" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-6">
+<path d="M504,133 l234,65" class="combo"/>
+<path d="M504,133 l-457,-27" class="combo"/>
+<path d="M504,133 l206,-39" class="combo"/>
+<rect rx="6" ry="6" x="490" y="120" width="28" height="26" class="combo"/>
+<text x="504" y="133" class="combo tap">&amp;kinn</text>
+</g>
+<g class="combo combopos-7">
+<path d="M504,114 l234,82" class="combo"/>
+<path d="M504,114 l-457,-9" class="combo"/>
+<path d="M504,114 l206,-73" class="combo"/>
+<rect rx="6" ry="6" x="490" y="101" width="28" height="26" class="combo"/>
+<text x="504" y="114" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-8">
+<path d="M523,130 l216,67" class="combo"/>
+<path d="M523,130 l-476,-25" class="combo"/>
+<path d="M523,130 l243,-43" class="combo"/>
+<rect rx="6" ry="6" x="509" y="117" width="28" height="26" class="combo"/>
+<text x="523" y="130" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-9">
+<path d="M523,112 l216,84" class="combo"/>
+<path d="M523,112 l-476,-7" class="combo"/>
+<path d="M523,112 l244,-78" class="combo"/>
+<rect rx="6" ry="6" x="509" y="99" width="28" height="26" class="combo"/>
+<text x="523" y="112" class="combo tap">&amp;konn</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 955)" class="layer-Fn">
@@ -1389,6 +1566,65 @@ rect.held, rect.combo.held {
 <path d="M798,147 l31,-41" class="combo"/>
 <rect rx="6" ry="6" x="784" y="134" width="28" height="26" class="combo"/>
 <text x="798" y="147" class="combo tap">&amp;ann</text>
+</g>
+<g class="combo combopos-1">
+<path d="M742,147 l9,38" class="combo"/>
+<path d="M742,147 l-9,-38" class="combo"/>
+<rect rx="6" ry="6" x="728" y="134" width="28" height="26" class="combo"/>
+<text x="742" y="147" class="combo tap">&amp;inn</text>
+</g>
+<g class="combo combopos-2">
+<path d="M742,119 l11,66" class="combo"/>
+<path d="M742,119 l-11,-66" class="combo"/>
+<rect rx="6" ry="6" x="728" y="106" width="28" height="26" class="combo"/>
+<text x="742" y="119" class="combo tap">&amp;unn</text>
+</g>
+<g class="combo combopos-3">
+<path d="M770,143 l-10,41" class="combo"/>
+<path d="M770,143 l10,-41" class="combo"/>
+<rect rx="6" ry="6" x="756" y="130" width="28" height="26" class="combo"/>
+<text x="770" y="143" class="combo tap">&amp;enn</text>
+</g>
+<g class="combo combopos-4">
+<path d="M770,115 l-11,69" class="combo"/>
+<path d="M770,115 l11,-69" class="combo"/>
+<rect rx="6" ry="6" x="756" y="102" width="28" height="26" class="combo"/>
+<text x="770" y="115" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-5">
+<path d="M541,133 l197,64" class="combo"/>
+<path d="M541,133 l-495,-27" class="combo"/>
+<path d="M541,133 l280,-39" class="combo"/>
+<rect rx="6" ry="6" x="527" y="120" width="28" height="26" class="combo"/>
+<text x="541" y="133" class="combo tap">&amp;onn</text>
+</g>
+<g class="combo combopos-6">
+<path d="M504,133 l234,65" class="combo"/>
+<path d="M504,133 l-457,-27" class="combo"/>
+<path d="M504,133 l206,-39" class="combo"/>
+<rect rx="6" ry="6" x="490" y="120" width="28" height="26" class="combo"/>
+<text x="504" y="133" class="combo tap">&amp;kinn</text>
+</g>
+<g class="combo combopos-7">
+<path d="M504,114 l234,82" class="combo"/>
+<path d="M504,114 l-457,-9" class="combo"/>
+<path d="M504,114 l206,-73" class="combo"/>
+<rect rx="6" ry="6" x="490" y="101" width="28" height="26" class="combo"/>
+<text x="504" y="114" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-8">
+<path d="M523,130 l216,67" class="combo"/>
+<path d="M523,130 l-476,-25" class="combo"/>
+<path d="M523,130 l243,-43" class="combo"/>
+<rect rx="6" ry="6" x="509" y="117" width="28" height="26" class="combo"/>
+<text x="523" y="130" class="combo tap">&amp;kunn</text>
+</g>
+<g class="combo combopos-9">
+<path d="M523,112 l216,84" class="combo"/>
+<path d="M523,112 l-476,-7" class="combo"/>
+<path d="M523,112 l244,-78" class="combo"/>
+<rect rx="6" ry="6" x="509" y="99" width="28" height="26" class="combo"/>
+<text x="523" y="112" class="combo tap">&amp;konn</text>
 </g>
 </g>
 </g>
