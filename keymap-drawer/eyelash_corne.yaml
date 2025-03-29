@@ -45,8 +45,8 @@ layers:
   - $$mdi:keyboard-esc$$
   - $$mdi:keyboard-space$$
   - {t: INT MUHENKAN, h: NUMBER}
-  - {t: INT MUHENKAN, h: toggle}
-  - {t: '$$mdi:keyboard-return$$', h: Fn}
+  - INT HENKAN
+  - {t: 'Alt+$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - KP ENTER
   NUMBER:
@@ -62,23 +62,23 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '@'
+  - Sft+Gui+S
   - Ctl+K
   - Ctl+S
   - Ctl+D
-  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
-  - {h: '4', s: '$$mdi:bluetooth-connect$$'}
+  - Ctl+F
+  - Ctl+G
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - $$mdi:arrow-left-bold$$
   - $$mdi:mouse-left-click-outline$$
   - '&mkp MB3'
   - '&mkp MB2'
-  - HOME
-  - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: ;, s: ':'}
+  - ':'
+  - Gui+$$mdi:keyboard-tab$$
   - Ctl+Z
   - Ctl+X
   - Ctl+C
@@ -86,12 +86,12 @@ layers:
   - Ctl+B
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - RGB EFR
+  - Ctl+K
   - PgUp
   - PgDn
-  - RGB BRD
-  - END
-  - PG DN
+  - '&td0'
+  - {t: /, s: '?'}
+  - \
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
