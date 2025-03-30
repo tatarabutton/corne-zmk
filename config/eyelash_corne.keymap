@@ -46,281 +46,130 @@
         tap-ms = <30>;
     };
 
-    combos {
-        compatible = "zmk,combos";
+combos {
+    compatible = "zmk,combos";
 
-        g {
-            bindings = <&kp G>;
-            key-positions = <42 14>;
-            layers = <0>;
-        };
+    /* 子音 + 母音コンボ */
+    ka_combo { bindings = <&kp K &kp A>; key-positions = <14 25>; layers = <0>; };
+    ki_combo { bindings = <&kp K &kp I>; key-positions = <14 23>; layers = <0>; };
+    ku_combo { bindings = <&kp K &kp U>; key-positions = <14 8>; layers = <0>; };
+    ke_combo { bindings = <&kp K &kp E>; key-positions = <14 24>; layers = <0>; };
+    ko_combo { bindings = <&kp K &kp O>; key-positions = <14 9>; layers = <0>; };
 
-        z {
-            bindings = <&kp Z>;
-            key-positions = <42 15>;
-            layers = <0>;
-        };
+    sa_combo { bindings = <&kp S &kp A>; key-positions = <15 25>; layers = <0>; };
+    si_combo { bindings = <&kp S &kp I>; key-positions = <15 23>; layers = <0>; };
+    su_combo { bindings = <&kp S &kp U>; key-positions = <15 8>; layers = <0>; };
+    se_combo { bindings = <&kp S &kp E>; key-positions = <15 24>; layers = <0>; };
+    so_combo { bindings = <&kp S &kp O>; key-positions = <15 9>; layers = <0>; };
 
-        n {
-            bindings = <&kp D>;
-            key-positions = <42 16>;
-            layers = <0>;
-        };
+    ta_combo { bindings = <&kp T &kp A>; key-positions = <16 25>; layers = <0>; };
+    ti_combo { bindings = <&kp T &kp I>; key-positions = <16 23>; layers = <0>; };
+    tu_combo { bindings = <&kp T &kp U>; key-positions = <16 8>; layers = <0>; };
+    te_combo { bindings = <&kp T &kp E>; key-positions = <16 24>; layers = <0>; };
+    to_combo { bindings = <&kp T &kp O>; key-positions = <16 9>; layers = <0>; };
 
-        b {
-            bindings = <&kp B>;
-            key-positions = <42 17>;
-            layers = <0>;
-        };
+    na_combo { bindings = <&kp N &kp A>; key-positions = <17 25>; layers = <0>; };
+    ni_combo { bindings = <&kp N &kp I>; key-positions = <17 23>; layers = <0>; };
+    nu_combo { bindings = <&kp N &kp U>; key-positions = <17 8>; layers = <0>; };
+    ne_combo { bindings = <&kp N &kp E>; key-positions = <17 24>; layers = <0>; };
+    no_combo { bindings = <&kp N &kp O>; key-positions = <17 9>; layers = <0>; };
 
-        p {
-            bindings = <&kp P>;
-            key-positions = <42 5>;
-            layers = <0>;
-        };
+    ha_combo { bindings = <&kp H &kp A>; key-positions = <18 25>; layers = <0>; };
+    hi_combo { bindings = <&kp H &kp I>; key-positions = <18 23>; layers = <0>; };
+    hu_combo { bindings = <&kp H &kp U>; key-positions = <18 8>; layers = <0>; };
+    he_combo { bindings = <&kp H &kp E>; key-positions = <18 24>; layers = <0>; };
+    ho_combo { bindings = <&kp H &kp O>; key-positions = <18 9>; layers = <0>; };
 
-        ann {
-            bindings = <&ann>;
-            key-positions = <47 25>;
-        };
+    ma_combo { bindings = <&kp M &kp A>; key-positions = <19 25>; layers = <0>; };
+    mi_combo { bindings = <&kp M &kp I>; key-positions = <19 23>; layers = <0>; };
+    mu_combo { bindings = <&kp M &kp U>; key-positions = <19 8>; layers = <0>; };
+    me_combo { bindings = <&kp M &kp E>; key-positions = <19 24>; layers = <0>; };
+    mo_combo { bindings = <&kp M &kp O>; key-positions = <19 9>; layers = <0>; };
 
-        inn {
-            bindings = <&inn>;
-            key-positions = <47 23>;
-        };
+    ya_combo { bindings = <&kp Y &kp A>; key-positions = <20 25>; layers = <0>; };
+    yu_combo { bindings = <&kp Y &kp U>; key-positions = <20 8>; layers = <0>; };
+    yo_combo { bindings = <&kp Y &kp O>; key-positions = <20 9>; layers = <0>; };
 
-        unn {
-            bindings = <&unn>;
-            key-positions = <47 8>;
-        };
+    ra_combo { bindings = <&kp R &kp A>; key-positions = <21 25>; layers = <0>; };
+    ri_combo { bindings = <&kp R &kp I>; key-positions = <21 23>; layers = <0>; };
+    ru_combo { bindings = <&kp R &kp U>; key-positions = <21 8>; layers = <0>; };
+    re_combo { bindings = <&kp R &kp E>; key-positions = <21 24>; layers = <0>; };
+    ro_combo { bindings = <&kp R &kp O>; key-positions = <21 9>; layers = <0>; };
 
-        enn {
-            bindings = <&enn>;
-            key-positions = <47 24>;
-        };
+    wa_combo { bindings = <&kp W &kp A>; key-positions = <22 25>; layers = <0>; };
+    wo_combo { bindings = <&kp W &kp O>; key-positions = <22 9>; layers = <0>; };
 
-        onn {
-            bindings = <&onn>;
-            key-positions = <47 9>;
-        };
+    ga_combo { bindings = <&kp G &kp A>; key-positions = <23 25>; layers = <0>; };
+    gi_combo { bindings = <&kp G &kp I>; key-positions = <23 23>; layers = <0>; };
+    gu_combo { bindings = <&kp G &kp U>; key-positions = <23 8>; layers = <0>; };
+    ge_combo { bindings = <&kp G &kp E>; key-positions = <23 24>; layers = <0>; };
+    go_combo { bindings = <&kp G &kp O>; key-positions = <23 9>; layers = <0>; };
 
-        kann {
-            bindings = <&onn>;
-            key-positions = <47 13 25>;
-        };
+    ba_combo { bindings = <&kp B &kp A>; key-positions = <24 25>; layers = <0>; };
+    bi_combo { bindings = <&kp B &kp I>; key-positions = <24 23>; layers = <0>; };
+    bu_combo { bindings = <&kp B &kp U>; key-positions = <24 8>; layers = <0>; };
+    be_combo { bindings = <&kp B &kp E>; key-positions = <24 24>; layers = <0>; };
+    bo_combo { bindings = <&kp B &kp O>; key-positions = <24 9>; layers = <0>; };
 
-        kinn {
-            bindings = <&kinn>;
-            key-positions = <47 13 23>;
-        };
+    pa_combo { bindings = <&kp P &kp A>; key-positions = <25 25>; layers = <0>; };
+    pi_combo { bindings = <&kp P &kp I>; key-positions = <25 23>; layers = <0>; };
+    pu_combo { bindings = <&kp P &kp U>; key-positions = <25 8>; layers = <0>; };
+    pe_combo { bindings = <&kp P &kp E>; key-positions = <25 24>; layers = <0>; };
+    po_combo { bindings = <&kp P &kp O>; key-positions = <25 9>; layers = <0>; };
 
-        kunn {
-            bindings = <&kunn>;
-            key-positions = <47 13 8>;
-        };
+    /* 特殊スペースコンボ */
+    k_space_to_g { bindings = <&kp G>; key-positions = <14 7>; layers = <0>; };
+    s_space_to_z { bindings = <&kp Z>; key-positions = <15 7>; layers = <0>; };
+    t_space_to_d { bindings = <&kp D>; key-positions = <16 7>; layers = <0>; };
+    h_space_to_b { bindings = <&kp B>; key-positions = <18 7>; layers = <0>; };
+    f_space_to_p { bindings = <&kp P>; key-positions = <25 7>; layers = <0>; };
 
-        kenn {
-            bindings = <&kunn>;
-            key-positions = <47 13 24>;
-        };
+    /* 子音 + Y + 母音 */
+    kya_combo { bindings = <&kp K &kp Y &kp A>; key-positions = <14 20 25>; layers = <0>; };
+    kyi_combo { bindings = <&kp K &kp Y &kp I>; key-positions = <14 20 23>; layers = <0>; };
+    kyu_combo { bindings = <&kp K &kp Y &kp U>; key-positions = <14 20 8>; layers = <0>; };
+    kyo_combo { bindings = <&kp K &kp Y &kp O>; key-positions = <14 20 9>; layers = <0>; };
+    sya_combo { bindings = <&kp S &kp Y &kp A>; key-positions = <15 20 25>; layers = <0>; };
+    syi_combo { bindings = <&kp S &kp Y &kp I>; key-positions = <15 20 23>; layers = <0>; };
+    syu_combo { bindings = <&kp S &kp Y &kp U>; key-positions = <15 20 8>; layers = <0>; };
+    syo_combo { bindings = <&kp S &kp Y &kp O>; key-positions = <15 20 9>; layers = <0>; };
+    nya_combo { bindings = <&kp N &kp Y &kp A>; key-positions = <17 20 25>; layers = <0>; };
+    nyi_combo { bindings = <&kp N &kp Y &kp I>; key-positions = <17 20 23>; layers = <0>; };
+    nyu_combo { bindings = <&kp N &kp Y &kp U>; key-positions = <17 20 8>; layers = <0>; };
+    nyo_combo { bindings = <&kp N &kp Y &kp O>; key-positions = <17 20 9>; layers = <0>; };
+    hya_combo { bindings = <&kp H &kp Y &kp A>; key-positions = <18 20 25>; layers = <0>; };
+    hyi_combo { bindings = <&kp H &kp Y &kp I>; key-positions = <18 20 23>; layers = <0>; };
+    hyu_combo { bindings = <&kp H &kp Y &kp U>; key-positions = <18 20 8>; layers = <0>; };
+    hyo_combo { bindings = <&kp H &kp Y &kp O>; key-positions = <18 20 9>; layers = <0>; };
+    mya_combo { bindings = <&kp M &kp Y &kp A>; key-positions = <19 20 25>; layers = <0>; };
+    myi_combo { bindings = <&kp M &kp Y &kp I>; key-positions = <19 20 23>; layers = <0>; };
+    myu_combo { bindings = <&kp M &kp Y &kp U>; key-positions = <19 20 8>; layers = <0>; };
+    myo_combo { bindings = <&kp M &kp Y &kp O>; key-positions = <19 20 9>; layers = <0>; };
+    rya_combo { bindings = <&kp R &kp Y &kp A>; key-positions = <21 20 25>; layers = <0>; };
+    ryi_combo { bindings = <&kp R &kp Y &kp I>; key-positions = <21 20 23>; layers = <0>; };
+    ryu_combo { bindings = <&kp R &kp Y &kp U>; key-positions = <21 20 8>; layers = <0>; };
+    ryo_combo { bindings = <&kp R &kp Y &kp O>; key-positions = <21 20 9>; layers = <0>; };
 
-        konn {
-            bindings = <&konn>;
-            key-positions = <47 13 9>;
-        };
-
-        ka {
-            bindings = <&ka>;
-            key-positions = <14 25>;
-        };
-
-        ki {
-            bindings = <&ki>;
-            key-positions = <14 23>;
-        };
-
-        ku {
-            bindings = <&ku>;
-            key-positions = <14 8>;
-        };
-
-        ke {
-            bindings = <&ke>;
-            key-positions = <14 24>;
-        };
-
-        ko {
-            bindings = <&ko>;
-            key-positions = <14 9>;
-        };
-
-        sa {
-            bindings = <&sa>;
-            key-positions = <15 25>;
-        };
-
-        si {
-            bindings = <&si>;
-            key-positions = <15 23>;
-        };
-
-        su {
-            bindings = <&su>;
-            key-positions = <15 8>;
-        };
-
-        se {
-            bindings = <&se>;
-            key-positions = <15 24>;
-        };
-
-        so {
-            bindings = <&se>;
-            key-positions = <15 9>;
-        };
+    /* 文字 + ENTER -> NN */
+    any_enter_to_nn {
+        bindings = <&nn_macro>;
+        key-positions = <42 13>; /* 42 = Any key, 13 = ENTER */
+        layers = <0>;
     };
+};
 
-    macros {
-        ann: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp N>;
-            label = "NEW_MACRO";
-        };
-
-        inn: inn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp I &kp N &kp N>;
-            label = "INN";
-        };
-
-        unn: unn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp N>;
-            label = "UNN";
-        };
-
-        enn: enn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N &kp N>;
-            label = "ENN";
-        };
-
-        onn: onn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp O &kp N &kp N>;
-            label = "ONN";
-        };
-
-        kann: kann {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp A &kp N &kp N>;
-            label = "KANN";
-        };
-
-        kinn: kinn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp I &kp N &kp N>;
-            label = "KINN";
-        };
-
-        kunn: kunn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp U &kp N &kp N>;
-            label = "KUNN";
-        };
-
-        kenn: kenn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp E &kp N &kp N>;
-            label = "KENN";
-        };
-
-        konn: konn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp O &kp N &kp N>;
-            label = "KONN";
-        };
-
-        ka: ka {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp A>;
-            label = "KA";
-        };
-
-        ki: ki {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp I>;
-            label = "KI";
-        };
-
-        ku: ku {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp U>;
-            label = "KU";
-        };
-
-        ke: ke {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp E>;
-            label = "KE";
-        };
-
-        ko: ko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp O>;
-            label = "KO";
-        };
-
-        sa: sa {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp A>;
-            label = "SA";
-        };
-
-        si: si {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp I>;
-            label = "SI";
-        };
-
-        su: su {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp U>;
-            label = "SU";
-        };
-
-        se: se {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp E>;
-            label = "SE";
-        };
-
-        so: so {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp O>;
-            label = "SO";
-        };
+macros {
+    /* NN マクロ */
+    nn_macro {
+        compatible = "zmk,behavior-macro";
+        #binding-cells = <0>;
+        bindings = <&kp N &kp N>;
+        label = "NN_MACRO";
     };
+};
+
+
+
 
     keymap {
         compatible = "zmk,keymap";
