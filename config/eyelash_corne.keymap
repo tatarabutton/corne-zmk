@@ -179,147 +179,6 @@
             key-positions = <15 9>;
         };
 
-    macros {
-        ann: new_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp A &kp N &kp N>;
-            label = "NEW_MACRO";
-        };
-
-        inn: inn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp I &kp N &kp N>;
-            label = "INN";
-        };
-
-        unn: unn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp U &kp N &kp N>;
-            label = "UNN";
-        };
-
-        enn: enn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp E &kp N &kp N>;
-            label = "ENN";
-        };
-
-        onn: onn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp O &kp N &kp N>;
-            label = "ONN";
-        };
-
-        kann: kann {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp A &kp N &kp N>;
-            label = "KANN";
-        };
-
-        kinn: kinn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp I &kp N &kp N>;
-            label = "KINN";
-        };
-
-        kunn: kunn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp U &kp N &kp N>;
-            label = "KUNN";
-        };
-
-        kenn: kenn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp E &kp N &kp N>;
-            label = "KENN";
-        };
-
-        konn: konn {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp O &kp N &kp N>;
-            label = "KONN";
-        };
-
-        ka: ka {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp A>;
-            label = "KA";
-        };
-
-        ki: ki {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp I>;
-            label = "KI";
-        };
-
-        ku: ku {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp U>;
-            label = "KU";
-        };
-
-        ke: ke {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp E>;
-            label = "KE";
-        };
-
-        ko: ko {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp K &kp O>;
-            label = "KO";
-        };
-
-        sa: sa {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp A>;
-            label = "SA";
-        };
-
-        si: si {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp I>;
-            label = "SI";
-        };
-
-        su: su {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp U>;
-            label = "SU";
-        };
-
-        se: se {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp E>;
-            label = "SE";
-        };
-
-        so: so {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp S &kp O>;
-            label = "SO";
-        };
-
         ta {
             bindings = <&ta>;
             key-positions = <16 25>;
@@ -472,6 +331,151 @@
             bindings = <&nn>;
             key-positions = <22 8>;
         };
+   };
+
+
+    macros {
+        ann: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp N>;
+            label = "NEW_MACRO";
+        };
+
+        inn: inn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp N &kp N>;
+            label = "INN";
+        };
+
+        unn: unn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp N &kp N>;
+            label = "UNN";
+        };
+
+        enn: enn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp N &kp N>;
+            label = "ENN";
+        };
+
+        onn: onn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp N &kp N>;
+            label = "ONN";
+        };
+
+        kann: kann {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A &kp N &kp N>;
+            label = "KANN";
+        };
+
+        kinn: kinn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp I &kp N &kp N>;
+            label = "KINN";
+        };
+
+        kunn: kunn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp U &kp N &kp N>;
+            label = "KUNN";
+        };
+
+        kenn: kenn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp E &kp N &kp N>;
+            label = "KENN";
+        };
+
+        konn: konn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp O &kp N &kp N>;
+            label = "KONN";
+        };
+
+        ka: ka {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A>;
+            label = "KA";
+        };
+
+        ki: ki {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp I>;
+            label = "KI";
+        };
+
+        ku: ku {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp U>;
+            label = "KU";
+        };
+
+        ke: ke {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp E>;
+            label = "KE";
+        };
+
+        ko: ko {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp O>;
+            label = "KO";
+        };
+
+        sa: sa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp A>;
+            label = "SA";
+        };
+
+        si: si {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp I>;
+            label = "SI";
+        };
+
+        su: su {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U>;
+            label = "SU";
+        };
+
+        se: se {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp E>;
+            label = "SE";
+        };
+
+        so: so {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp O>;
+            label = "SO";
+        };
+
+      
 
         sa: sa {
             compatible = "zmk,behavior-macro";
@@ -724,8 +728,6 @@
             bindings = <&kp N &kp N>;
             label = "NN";
         };
-
-
     };
 
     keymap {
