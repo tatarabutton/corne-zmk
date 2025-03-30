@@ -104,8 +104,8 @@
             key-positions = <47 9>;
         };
 
-        kann {
-            bindings = <&onn>;
+             kann {
+            bindings = <&kann>;
             key-positions = <47 13 25>;
         };
 
@@ -120,7 +120,7 @@
         };
 
         kenn {
-            bindings = <&kunn>;
+            bindings = <&kenn>;
             key-positions = <47 13 24>;
         };
 
@@ -175,10 +175,9 @@
         };
 
         so {
-            bindings = <&se>;
+            bindings = <&so>; 
             key-positions = <15 9>;
         };
-    };
 
     macros {
         ann: new_macro {
@@ -320,6 +319,198 @@
             bindings = <&kp S &kp O>;
             label = "SO";
         };
+
+        ta {
+            bindings = <&ta>;
+            key-positions = <16 25>;
+        };
+
+        ti {
+            bindings = <&ti>;
+            key-positions = <16 23>;
+        };
+
+        tu {
+            bindings = <&tu>;
+            key-positions = <16 8>;
+        };
+
+        te {
+            bindings = <&te>;
+            key-positions = <16 24>;
+        };
+
+        to {
+            bindings = <&to>;
+            key-positions = <16 9>;
+        };
+        na {
+            bindings = <&na>;
+            key-positions = <17 25>;
+        };
+
+        ni {
+            bindings = <&ni>;
+            key-positions = <17 23>;
+        };
+
+        nu {
+            bindings = <&nu>;
+            key-positions = <17 8>;
+        };
+
+        ne {
+            bindings = <&ne>;
+            key-positions = <17 24>;
+        };
+
+        no {
+            bindings = <&no>;
+            key-positions = <17 9>;
+        };
+        ha {
+            bindings = <&ha>;
+            key-positions = <18 25>;
+        };
+
+        hi {
+            bindings = <&hi>;
+            key-positions = <18 23>;
+        };
+
+        hu {
+            bindings = <&hu>;
+            key-positions = <18 8>;
+        };
+
+        he {
+            bindings = <&he>;
+            key-positions = <18 24>;
+        };
+
+        ho {
+            bindings = <&ho>;
+            key-positions = <18 9>;
+        };
+
+        ma {
+            bindings = <&ma>;
+            key-positions = <19 25>;
+        };
+
+        mi {
+            bindings = <&mi>;
+            key-positions = <19 23>;
+        };
+
+        mu {
+            bindings = <&mu>;
+            key-positions = <19 8>;
+        };
+
+        me {
+            bindings = <&me>;
+            key-positions = <19 24>;
+        };
+
+        mo {
+            bindings = <&mo>;
+            key-positions = <19 9>;
+        };
+
+        ya {
+            bindings = <&ya>;
+            key-positions = <20 25>;
+        };
+
+        yu {
+            bindings = <&yu>;
+            key-positions = <20 8>;
+        };
+
+        yo {
+            bindings = <&yo>;
+            key-positions = <20 9>;
+        };
+
+        ra {
+            bindings = <&ra>;
+            key-positions = <21 25>;
+        };
+
+        ri {
+            bindings = <&ri>;
+            key-positions = <21 23>;
+        };
+
+        ru {
+            bindings = <&ru>;
+            key-positions = <21 8>;
+        };
+
+        re {
+            bindings = <&re>;
+            key-positions = <21 24>;
+        };
+
+        ro {
+            bindings = <&ro>;
+            key-positions = <21 9>;
+        };
+
+        wa {
+            bindings = <&wa>;
+            key-positions = <22 25>;
+        };
+
+        wo {
+            bindings = <&wo>;
+            key-positions = <22 9>;
+        };
+
+        nn {
+            bindings = <&nn>;
+            key-positions = <22 8>;
+        };
+
+        sa: sa {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp A>;
+            label = "SA";
+        };
+
+        si: si {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp I>;
+            label = "SI";
+        };
+
+        su: su {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp U>;
+            label = "SU";
+        };
+
+        se: se {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp E>;
+            label = "SE";
+        };
+
+        so: so {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp O>;
+            label = "SO";
+        };
+
+
+
+
     };
 
     keymap {
