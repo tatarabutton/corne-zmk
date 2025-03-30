@@ -197,58 +197,258 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [42, 14]
+- p: [14, 25]
+  k: K
+  l: [QWERTY]
+- p: [14, 23]
+  k: K
+  l: [QWERTY]
+- p: [14, 8]
+  k: K
+  l: [QWERTY]
+- p: [14, 24]
+  k: K
+  l: [QWERTY]
+- p: [14, 9]
+  k: K
+  l: [QWERTY]
+- p: [15, 25]
+  k: S
+  l: [QWERTY]
+- p: [15, 23]
+  k: S
+  l: [QWERTY]
+- p: [15, 8]
+  k: S
+  l: [QWERTY]
+- p: [15, 24]
+  k: S
+  l: [QWERTY]
+- p: [15, 9]
+  k: S
+  l: [QWERTY]
+- p: [16, 25]
+  k: T
+  l: [QWERTY]
+- p: [16, 23]
+  k: T
+  l: [QWERTY]
+- p: [16, 8]
+  k: T
+  l: [QWERTY]
+- p: [16, 24]
+  k: T
+  l: [QWERTY]
+- p: [16, 9]
+  k: T
+  l: [QWERTY]
+- p: [17, 25]
+  k: N
+  l: [QWERTY]
+- p: [17, 23]
+  k: N
+  l: [QWERTY]
+- p: [17, 8]
+  k: N
+  l: [QWERTY]
+- p: [17, 24]
+  k: N
+  l: [QWERTY]
+- p: [17, 9]
+  k: N
+  l: [QWERTY]
+- p: [18, 25]
+  k: H
+  l: [QWERTY]
+- p: [18, 23]
+  k: H
+  l: [QWERTY]
+- p: [18, 8]
+  k: H
+  l: [QWERTY]
+- p: [18, 24]
+  k: H
+  l: [QWERTY]
+- p: [18, 9]
+  k: H
+  l: [QWERTY]
+- p: [19, 25]
+  k: M
+  l: [QWERTY]
+- p: [19, 23]
+  k: M
+  l: [QWERTY]
+- p: [19, 8]
+  k: M
+  l: [QWERTY]
+- p: [19, 24]
+  k: M
+  l: [QWERTY]
+- p: [19, 9]
+  k: M
+  l: [QWERTY]
+- p: [20, 25]
+  k: Y
+  l: [QWERTY]
+- p: [20, 8]
+  k: Y
+  l: [QWERTY]
+- p: [20, 9]
+  k: Y
+  l: [QWERTY]
+- p: [21, 25]
+  k: R
+  l: [QWERTY]
+- p: [21, 23]
+  k: R
+  l: [QWERTY]
+- p: [21, 8]
+  k: R
+  l: [QWERTY]
+- p: [21, 24]
+  k: R
+  l: [QWERTY]
+- p: [21, 9]
+  k: R
+  l: [QWERTY]
+- p: [22, 25]
+  k: W
+  l: [QWERTY]
+- p: [22, 9]
+  k: W
+  l: [QWERTY]
+- p: [23, 25]
   k: G
   l: [QWERTY]
-- p: [42, 15]
-  k: Z
+- p: [23, 23]
+  k: G
   l: [QWERTY]
-- p: [42, 16]
-  k: D
+- p: [23, 8]
+  k: G
   l: [QWERTY]
-- p: [42, 17]
+- p: [23, 24]
+  k: G
+  l: [QWERTY]
+- p: [23, 9]
+  k: G
+  l: [QWERTY]
+- p: [24, 25]
   k: B
   l: [QWERTY]
-- p: [42, 5]
+- p: [24, 23]
+  k: B
+  l: [QWERTY]
+- p: [24, 8]
+  k: B
+  l: [QWERTY]
+- p: [24, 24]
+  k: B
+  l: [QWERTY]
+- p: [24, 9]
+  k: B
+  l: [QWERTY]
+- p: [25, 25]
   k: P
   l: [QWERTY]
-- p: [47, 25]
-  k: '&ann'
-- p: [47, 23]
-  k: '&inn'
-- p: [47, 8]
-  k: '&unn'
-- p: [47, 24]
-  k: '&enn'
-- p: [47, 9]
-  k: '&onn'
-- p: [47, 13, 25]
-  k: '&onn'
-- p: [47, 13, 23]
-  k: '&kinn'
-- p: [47, 13, 8]
-  k: '&kunn'
-- p: [47, 13, 24]
-  k: '&kunn'
-- p: [47, 13, 9]
-  k: '&konn'
-- p: [14, 25]
-  k: '&ka'
-- p: [14, 23]
-  k: '&ki'
-- p: [14, 8]
-  k: '&ku'
-- p: [14, 24]
-  k: '&ke'
-- p: [14, 9]
-  k: '&ko'
-- p: [15, 25]
-  k: '&sa'
-- p: [15, 23]
-  k: '&si'
-- p: [15, 8]
-  k: '&su'
-- p: [15, 24]
-  k: '&se'
-- p: [15, 9]
-  k: '&se'
+- p: [25, 23]
+  k: P
+  l: [QWERTY]
+- p: [25, 8]
+  k: P
+  l: [QWERTY]
+- p: [25, 24]
+  k: P
+  l: [QWERTY]
+- p: [25, 9]
+  k: P
+  l: [QWERTY]
+- p: [14, 7]
+  k: G
+  l: [QWERTY]
+- p: [15, 7]
+  k: Z
+  l: [QWERTY]
+- p: [16, 7]
+  k: D
+  l: [QWERTY]
+- p: [18, 7]
+  k: B
+  l: [QWERTY]
+- p: [25, 7]
+  k: P
+  l: [QWERTY]
+- p: [14, 20, 25]
+  k: K
+  l: [QWERTY]
+- p: [14, 20, 23]
+  k: K
+  l: [QWERTY]
+- p: [14, 20, 8]
+  k: K
+  l: [QWERTY]
+- p: [14, 20, 9]
+  k: K
+  l: [QWERTY]
+- p: [15, 20, 25]
+  k: S
+  l: [QWERTY]
+- p: [15, 20, 23]
+  k: S
+  l: [QWERTY]
+- p: [15, 20, 8]
+  k: S
+  l: [QWERTY]
+- p: [15, 20, 9]
+  k: S
+  l: [QWERTY]
+- p: [17, 20, 25]
+  k: N
+  l: [QWERTY]
+- p: [17, 20, 23]
+  k: N
+  l: [QWERTY]
+- p: [17, 20, 8]
+  k: N
+  l: [QWERTY]
+- p: [17, 20, 9]
+  k: N
+  l: [QWERTY]
+- p: [18, 20, 25]
+  k: H
+  l: [QWERTY]
+- p: [18, 20, 23]
+  k: H
+  l: [QWERTY]
+- p: [18, 20, 8]
+  k: H
+  l: [QWERTY]
+- p: [18, 20, 9]
+  k: H
+  l: [QWERTY]
+- p: [19, 20, 25]
+  k: M
+  l: [QWERTY]
+- p: [19, 20, 23]
+  k: M
+  l: [QWERTY]
+- p: [19, 20, 8]
+  k: M
+  l: [QWERTY]
+- p: [19, 20, 9]
+  k: M
+  l: [QWERTY]
+- p: [21, 20, 25]
+  k: R
+  l: [QWERTY]
+- p: [21, 20, 23]
+  k: R
+  l: [QWERTY]
+- p: [21, 20, 8]
+  k: R
+  l: [QWERTY]
+- p: [21, 20, 9]
+  k: R
+  l: [QWERTY]
+- p: [42, 13]
+  k: '&nn_macro'
+  l: [QWERTY]
