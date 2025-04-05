@@ -64,6 +64,7 @@ combos {
   COMBO(D, &kp D, 42 16)
   COMBO(B, &kp B, 42 17)
   COMBO(P, &kp P, 42 5)
+  COMBO(ANN, &kp A, &kp N, &kp N, 42 47)
 };
 
 
