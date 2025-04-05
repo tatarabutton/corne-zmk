@@ -71,6 +71,33 @@
             bindings = <&kp A &kp N &kp N>;
             label = "ANN";
         };
+        inn: inn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp I &kp N &kp N>;
+            label = "INN";
+        };
+
+        unn: unn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp U &kp N &kp N>;
+            label = "UNN";
+        };
+
+        enn: enn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp E &kp N &kp N>;
+            label = "ENN";
+        };
+
+        onn: onn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp O &kp N &kp N>;
+            label = "ONN";
+        };
     };
 
     keymap {
