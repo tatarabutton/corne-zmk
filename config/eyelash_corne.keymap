@@ -7,7 +7,6 @@
 #include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
-
 /*
 
    &mmv_input_listener {
@@ -22,6 +21,7 @@
 
 #define ZMK_MOUSE_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_MOUSE_DEFAULT_SCRL_VAL 20    // 10
+
 #define COMBO(NAME, BINDINGS, KEYPOS) \
   combo_##NAME { \
     timeout-ms = <50>; \
@@ -54,21 +54,24 @@
         tap-ms = <30>;
     };
 
+    combos {
+        compatible = "zmk,combos";
 
-
-combos {
-  compatible = "zmk,combos";
-  
-  COMBO(G, &kp G, 42 14)
+        COMBO(G, &kp G, 42 14)
   COMBO(Z, &kp Z, 42 15)
   COMBO(D, &kp D, 42 16)
   COMBO(B, &kp B, 42 17)
   COMBO(P, &kp P, 42 5)
-};
+    };
 
-
-
-
+    macros {
+        ann: ann {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp A &kp N &kp N>;
+            label = "ANN";
+        };
+    };
 
     keymap {
         compatible = "zmk,keymap";
