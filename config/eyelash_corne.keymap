@@ -71,6 +71,7 @@
             bindings = <&kp A &kp N &kp N>;
             label = "ANN";
         };
+
         inn: inn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -97,6 +98,13 @@
             #binding-cells = <0>;
             bindings = <&kp O &kp N &kp N>;
             label = "ONN";
+        };
+
+        kann: kann {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A &kp N &kp N>;
+            label = "KANN";
         };
     };
 
