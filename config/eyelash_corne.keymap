@@ -101,30 +101,35 @@
         };
 
         // k行
+
         kann: kann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp A &kp N &kp N>;
             label = "KANN";
         };
+
         kinn: kinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp I &kp N &kp N>;
             label = "KINN";
         };
+
         kunn: kunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp U &kp N &kp N>;
             label = "KUNN";
         };
+
         kenn: kenn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp K &kp E &kp N &kp N>;
             label = "KENN";
         };
+
         konn: konn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -133,30 +138,35 @@
         };
 
         // s行
+
         sann: sann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp A &kp N &kp N>;
             label = "SANN";
         };
+
         sinn: sinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp I &kp N &kp N>;
             label = "SINN";
         };
+
         sunn: sunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp U &kp N &kp N>;
             label = "SUNN";
         };
+
         senn: senn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp S &kp E &kp N &kp N>;
             label = "SENN";
         };
+
         sonn: sonn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -165,30 +175,35 @@
         };
 
         // t行
+
         tann: tann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp A &kp N &kp N>;
             label = "TANN";
         };
+
         tinn: tinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp I &kp N &kp N>;
             label = "TINN";
         };
+
         tunn: tunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp U &kp N &kp N>;
             label = "TUNN";
         };
+
         tenn: tenn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp T &kp E &kp N &kp N>;
             label = "TENN";
         };
+
         tonn: tonn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -197,30 +212,35 @@
         };
 
         // n行
+
         nnann: nnann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp A &kp N &kp N>;
             label = "NNANN";
         };
+
         nninn: nninn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp I &kp N &kp N>;
             label = "NNINN";
         };
+
         nnunn: nnunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp U &kp N &kp N>;
             label = "NNUNN";
         };
+
         nnenn: nnenn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp N &kp E &kp N &kp N>;
             label = "NNENN";
         };
+
         nnonn: nnonn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -229,30 +249,35 @@
         };
 
         // h行
+
         hann: hann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp A &kp N &kp N>;
             label = "HANN";
         };
+
         hinn: hinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp I &kp N &kp N>;
             label = "HINN";
         };
+
         hunn: hunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp U &kp N &kp N>;
             label = "HUNN";
         };
+
         henn: henn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp H &kp E &kp N &kp N>;
             label = "HENN";
         };
+
         honn: honn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -261,30 +286,35 @@
         };
 
         // m行
+
         mann: mann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp A &kp N &kp N>;
             label = "MANN";
         };
+
         minn: minn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp I &kp N &kp N>;
             label = "MINN";
         };
+
         munn: munn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp U &kp N &kp N>;
             label = "MUNN";
         };
+
         menn: menn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp M &kp E &kp N &kp N>;
             label = "MENN";
         };
+
         monn: monn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -293,24 +323,28 @@
         };
 
         // y行（y + e は存在しない）
+
         yann: yann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp A &kp N &kp N>;
             label = "YANN";
         };
+
         yinn: yinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp I &kp N &kp N>;
             label = "YINN";
         };
+
         yunn: yunn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp Y &kp U &kp N &kp N>;
             label = "YUNN";
         };
+
         yonn: yonn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -319,30 +353,35 @@
         };
 
         // r行
+
         rann: rann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp A &kp N &kp N>;
             label = "RANN";
         };
+
         rinn: rinn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp I &kp N &kp N>;
             label = "RINN";
         };
+
         runn: runn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp U &kp N &kp N>;
             label = "RUNN";
         };
+
         renn: renn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp R &kp E &kp N &kp N>;
             label = "RENN";
         };
+
         ronn: ronn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -351,374 +390,428 @@
         };
 
         // w行（実質 wa のみ）
+
         wann: wann {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
             bindings = <&kp W &kp A &kp N &kp N>;
             label = "WANN";
         };
-    // 拗音マクロ定義
-    kya_nn: kya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp K &kp Y &kp A &kp N &kp N>;
-        label = "KYA_NN";
-    };
-    kyu_nn: kyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp K &kp Y &kp U &kp N &kp N>;
-        label = "KYU_NN";
-    };
-    kyo_nn: kyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp K &kp Y &kp O &kp N &kp N>;
-        label = "KYO_NN";
-    };
 
-    sha_nn: sha_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp S &kp H &kp A &kp N &kp N>;
-        label = "SHA_NN";
-    };
-    shu_nn: shu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp S &kp H &kp U &kp N &kp N>;
-        label = "SHU_NN";
-    };
-    sho_nn: sho_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp S &kp H &kp O &kp N &kp N>;
-        label = "SHO_NN";
-    };
+        // 拗音マクロ定義
 
-    tya_nn: tya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp T &kp Y &kp A &kp N &kp N>;
-        label = "TYA_NN";
-    };
-    tyu_nn: tyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp T &kp Y &kp U &kp N &kp N>;
-        label = "TYU_NN";
-    };
-    tyo_nn: tyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp T &kp Y &kp O &kp N &kp N>;
-        label = "TYO_NN";
-    };
+        kya_nn: kya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp Y &kp A &kp N &kp N>;
+            label = "KYA_NN";
+        };
 
-    nya_nn: nya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp N &kp Y &kp A &kp N &kp N>;
-        label = "NYA_NN";
-    };
-    nyu_nn: nyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp N &kp Y &kp U &kp N &kp N>;
-        label = "NYU_NN";
-    };
-    nyo_nn: nyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp N &kp Y &kp O &kp N &kp N>;
-        label = "NYO_NN";
-    };
+        kyu_nn: kyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp Y &kp U &kp N &kp N>;
+            label = "KYU_NN";
+        };
 
-    hya_nn: hya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp H &kp Y &kp A &kp N &kp N>;
-        label = "HYA_NN";
-    };
-    hyu_nn: hyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp H &kp Y &kp U &kp N &kp N>;
-        label = "HYU_NN";
-    };
-    hyo_nn: hyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp H &kp Y &kp O &kp N &kp N>;
-        label = "HYO_NN";
-    };
+        kyo_nn: kyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp Y &kp O &kp N &kp N>;
+            label = "KYO_NN";
+        };
 
-    mya_nn: mya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp M &kp Y &kp A &kp N &kp N>;
-        label = "MYA_NN";
-    };
-    myu_nn: myu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp M &kp Y &kp U &kp N &kp N>;
-        label = "MYU_NN";
-    };
-    myo_nn: myo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp M &kp Y &kp O &kp N &kp N>;
-        label = "MYO_NN";
-    };
+        sha_nn: sha_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp H &kp A &kp N &kp N>;
+            label = "SHA_NN";
+        };
 
-    rya_nn: rya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp R &kp Y &kp A &kp N &kp N>;
-        label = "RYA_NN";
-    };
-    ryu_nn: ryu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp R &kp Y &kp U &kp N &kp N>;
-        label = "RYU_NN";
-    };
-    ryo_nn: ryo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp R &kp Y &kp O &kp N &kp N>;
-        label = "RYO_NN";
-    };
-  
-    ga_nn: ga_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp A &kp N &kp N>;
-        label = "GA_NN";
-    };
-    gi_nn: gi_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp I &kp N &kp N>;
-        label = "GI_NN";
-    };
-    gu_nn: gu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp U &kp N &kp N>;
-        label = "GU_NN";
-    };
-    ge_nn: ge_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp E &kp N &kp N>;
-        label = "GE_NN";
-    };
-    go_nn: go_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp O &kp N &kp N>;
-        label = "GO_NN";
-    };
+        shu_nn: shu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp H &kp U &kp N &kp N>;
+            label = "SHU_NN";
+        };
 
-    za_nn: za_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp Z &kp A &kp N &kp N>;
-        label = "ZA_NN";
-    };
-    zi_nn: zi_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp Z &kp I &kp N &kp N>;
-        label = "ZI_NN";
-    };
-    zu_nn: zu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp Z &kp U &kp N &kp N>;
-        label = "ZU_NN";
-    };
-    ze_nn: ze_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp Z &kp E &kp N &kp N>;
-        label = "ZE_NN";
-    };
-    zo_nn: zo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp Z &kp O &kp N &kp N>;
-        label = "ZO_NN";
-    };
+        sho_nn: sho_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp S &kp H &kp O &kp N &kp N>;
+            label = "SHO_NN";
+        };
 
-    da_nn: da_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp D &kp A &kp N &kp N>;
-        label = "DA_NN";
-    };
-    di_nn: di_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp D &kp I &kp N &kp N>;
-        label = "DI_NN";
-    };
-    du_nn: du_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp D &kp U &kp N &kp N>;
-        label = "DU_NN";
-    };
-    de_nn: de_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp D &kp E &kp N &kp N>;
-        label = "DE_NN";
-    };
-    do_nn: do_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp D &kp O &kp N &kp N>;
-        label = "DO_NN";
-    };
+        tya_nn: tya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp Y &kp A &kp N &kp N>;
+            label = "TYA_NN";
+        };
 
-    ba_nn: ba_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp A &kp N &kp N>;
-        label = "BA_NN";
-    };
-    bi_nn: bi_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp I &kp N &kp N>;
-        label = "BI_NN";
-    };
-    bu_nn: bu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp U &kp N &kp N>;
-        label = "BU_NN";
-    };
-    be_nn: be_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp E &kp N &kp N>;
-        label = "BE_NN";
-    };
-    bo_nn: bo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp O &kp N &kp N>;
-        label = "BO_NN";
-    };
-    pa_nn: pa_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp A &kp N &kp N>;
-        label = "PA_NN";
-    };
-    pi_nn: pi_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp I &kp N &kp N>;
-        label = "PI_NN";
-    };
-    pu_nn: pu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp U &kp N &kp N>;
-        label = "PU_NN";
-    };
-    pe_nn: pe_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp E &kp N &kp N>;
-        label = "PE_NN";
-    };
-    po_nn: po_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp O &kp N &kp N>;
-        label = "PO_NN";
-    };
-    gya_nn: gya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp Y &kp A &kp N &kp N>;
-        label = "GYA_NN";
-    };
-    gyu_nn: gyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp Y &kp U &kp N &kp N>;
-        label = "GYU_NN";
-    };
-    gyo_nn: gyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp G &kp Y &kp O &kp N &kp N>;
-        label = "GYO_NN";
-    };
+        tyu_nn: tyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp Y &kp U &kp N &kp N>;
+            label = "TYU_NN";
+        };
 
-    ja_nn: ja_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp J &kp A &kp N &kp N>;
-        label = "JA_NN";
-    };
-    ju_nn: ju_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp J &kp U &kp N &kp N>;
-        label = "JU_NN";
-    };
-    jo_nn: jo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp J &kp O &kp N &kp N>;
-        label = "JO_NN";
-    };
+        tyo_nn: tyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp T &kp Y &kp O &kp N &kp N>;
+            label = "TYO_NN";
+        };
 
-    bya_nn: bya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp Y &kp A &kp N &kp N>;
-        label = "BYA_NN";
-    };
-    byu_nn: byu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp Y &kp U &kp N &kp N>;
-        label = "BYU_NN";
-    };
-    byo_nn: byo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp B &kp Y &kp O &kp N &kp N>;
-        label = "BYO_NN";
-    };
-    pya_nn: pya_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp Y &kp A &kp N &kp N>;
-        label = "PYA_NN";
-    };
-    pyu_nn: pyu_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp Y &kp U &kp N &kp N>;
-        label = "PYU_NN";
-    };
-    pyo_nn: pyo_nn {
-        compatible = "zmk,behavior-macro";
-        #binding-cells = <0>;
-        bindings = <&kp P &kp Y &kp O &kp N &kp N>;
-        label = "PYO_NN";
-    };
+        nya_nn: nya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp Y &kp A &kp N &kp N>;
+            label = "NYA_NN";
+        };
 
+        nyu_nn: nyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp Y &kp U &kp N &kp N>;
+            label = "NYU_NN";
+        };
+
+        nyo_nn: nyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N &kp Y &kp O &kp N &kp N>;
+            label = "NYO_NN";
+        };
+
+        hya_nn: hya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp Y &kp A &kp N &kp N>;
+            label = "HYA_NN";
+        };
+
+        hyu_nn: hyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp Y &kp U &kp N &kp N>;
+            label = "HYU_NN";
+        };
+
+        hyo_nn: hyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp H &kp Y &kp O &kp N &kp N>;
+            label = "HYO_NN";
+        };
+
+        mya_nn: mya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp Y &kp A &kp N &kp N>;
+            label = "MYA_NN";
+        };
+
+        myu_nn: myu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp Y &kp U &kp N &kp N>;
+            label = "MYU_NN";
+        };
+
+        myo_nn: myo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp M &kp Y &kp O &kp N &kp N>;
+            label = "MYO_NN";
+        };
+
+        rya_nn: rya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp Y &kp A &kp N &kp N>;
+            label = "RYA_NN";
+        };
+
+        ryu_nn: ryu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp Y &kp U &kp N &kp N>;
+            label = "RYU_NN";
+        };
+
+        ryo_nn: ryo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp R &kp Y &kp O &kp N &kp N>;
+            label = "RYO_NN";
+        };
+
+        ga_nn: ga_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp A &kp N &kp N>;
+            label = "GA_NN";
+        };
+
+        gi_nn: gi_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp I &kp N &kp N>;
+            label = "GI_NN";
+        };
+
+        gu_nn: gu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp U &kp N &kp N>;
+            label = "GU_NN";
+        };
+
+        ge_nn: ge_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp E &kp N &kp N>;
+            label = "GE_NN";
+        };
+
+        go_nn: go_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp O &kp N &kp N>;
+            label = "GO_NN";
+        };
+
+        za_nn: za_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp A &kp N &kp N>;
+            label = "ZA_NN";
+        };
+
+        zi_nn: zi_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp I &kp N &kp N>;
+            label = "ZI_NN";
+        };
+
+        zu_nn: zu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp U &kp N &kp N>;
+            label = "ZU_NN";
+        };
+
+        ze_nn: ze_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp E &kp N &kp N>;
+            label = "ZE_NN";
+        };
+
+        zo_nn: zo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp Z &kp O &kp N &kp N>;
+            label = "ZO_NN";
+        };
+
+        da_nn: da_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp A &kp N &kp N>;
+            label = "DA_NN";
+        };
+
+        di_nn: di_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp I &kp N &kp N>;
+            label = "DI_NN";
+        };
+
+        du_nn: du_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp U &kp N &kp N>;
+            label = "DU_NN";
+        };
+
+        de_nn: de_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp E &kp N &kp N>;
+            label = "DE_NN";
+        };
+
+        do_nn: do_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp D &kp O &kp N &kp N>;
+            label = "DO_NN";
+        };
+
+        ba_nn: ba_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp A &kp N &kp N>;
+            label = "BA_NN";
+        };
+
+        bi_nn: bi_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp I &kp N &kp N>;
+            label = "BI_NN";
+        };
+
+        bu_nn: bu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp U &kp N &kp N>;
+            label = "BU_NN";
+        };
+
+        be_nn: be_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp E &kp N &kp N>;
+            label = "BE_NN";
+        };
+
+        bo_nn: bo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp O &kp N &kp N>;
+            label = "BO_NN";
+        };
+
+        pa_nn: pa_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp A &kp N &kp N>;
+            label = "PA_NN";
+        };
+
+        pi_nn: pi_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp I &kp N &kp N>;
+            label = "PI_NN";
+        };
+
+        pu_nn: pu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp U &kp N &kp N>;
+            label = "PU_NN";
+        };
+
+        pe_nn: pe_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp E &kp N &kp N>;
+            label = "PE_NN";
+        };
+
+        po_nn: po_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp O &kp N &kp N>;
+            label = "PO_NN";
+        };
+
+        gya_nn: gya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp Y &kp A &kp N &kp N>;
+            label = "GYA_NN";
+        };
+
+        gyu_nn: gyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp Y &kp U &kp N &kp N>;
+            label = "GYU_NN";
+        };
+
+        gyo_nn: gyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp G &kp Y &kp O &kp N &kp N>;
+            label = "GYO_NN";
+        };
+
+        ja_nn: ja_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp A &kp N &kp N>;
+            label = "JA_NN";
+        };
+
+        ju_nn: ju_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp U &kp N &kp N>;
+            label = "JU_NN";
+        };
+
+        jo_nn: jo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp J &kp O &kp N &kp N>;
+            label = "JO_NN";
+        };
+
+        bya_nn: bya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp Y &kp A &kp N &kp N>;
+            label = "BYA_NN";
+        };
+
+        byu_nn: byu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp Y &kp U &kp N &kp N>;
+            label = "BYU_NN";
+        };
+
+        byo_nn: byo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp B &kp Y &kp O &kp N &kp N>;
+            label = "BYO_NN";
+        };
+
+        pya_nn: pya_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp Y &kp A &kp N &kp N>;
+            label = "PYA_NN";
+        };
+
+        pyu_nn: pyu_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp Y &kp U &kp N &kp N>;
+            label = "PYU_NN";
+        };
+
+        pyo_nn: pyo_nn {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp P &kp Y &kp O &kp N &kp N>;
+            label = "PYO_NN";
+        };
+
+        ka: ka {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp K &kp A>;
+            label = "KA";
+        };
     };
 
     keymap {
