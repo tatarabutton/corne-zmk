@@ -100,12 +100,17 @@
             label = "ONN";
         };
 
-        kann: kann {
+        // 子音 + 母音 + nn
+% for consonant, label_prefix in [("K", "k"), ("S", "s"), ("T", "t"), ("N", "n"), ("H", "h"), ("M", "m"), ("Y", "y"), ("R", "r"), ("W", "w")]:
+% for vowel, v_label in [("A", "a"), ("I", "i"), ("U", "u"), ("E", "e"), ("O", "o")]:
+        {{label_prefix}}{{v_label}}nn: {{label_prefix}}{{v_label}}nn {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp K &kp A &kp N &kp N>;
-            label = "KANN";
+            bindings = <&kp {{consonant}} &kp {{vowel}} &kp N &kp N>;
+            label = "{{label_prefix|upper}}{{v_label|upper}}NN";
         };
+% end
+% end
     };
 
     keymap {
